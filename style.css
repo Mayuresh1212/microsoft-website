@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+}
+.bodystyle{
+    width: 90%;
+    margin: 0 auto;
+}
+.logostyle{
+    width: 170px;
+    height: 50px;
+}
+/* Make the image fully responsive */
+.carousel-inner img {
+    width: 100%;
+    height: 520px;
+  }
+  .carousel-item{
+      position: relative;
+      z-index: 1;
+  }
+  .carousel-caption{
+      position: absolute;
+      top: 7%;
+      left: 7% !important;
+  }
+  .carousel-caption h3,p{
+      text-align: left;
+      color: black;
+  }
+  .carousel-caption button{
+      color: #fff;
+      background: #000;
+      font-size: 15px;
+      padding: 10px 20px;
+      border: none;
+      position: absolute;
+      left: 0;
+  }
+  main{
+      margin: 50px 0;
+  }
+  .card{
+      border: none !important;
+  }
+  .card-body{
+      padding: 5px 0 !important;
+  }
+  .card-img-top{
+      height: 200px !important;
+      
+  }
+  .banner{
+      width: 100%;
+      height: 500px ;
+      background-image: linear-gradient(to right ,rgba(0,0,0,0.9),rgba(0,0,0,0)) ,url('images/bg6.jpg');
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      margin: 20px 0 50px 0;
+      color: #fff ;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      padding-left: 70px;
+  }
+  .banner p{
+      color: #fff;
+  }
+  .banner button{
+    color: #000;
+    background:#fff ;
+    font-size: 15px;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+  }
+  .card2{
+      margin: 50px 0;
+  }
+  .social{
+      margin-bottom: 50px;
+  }
+  .fa-facebook-official{
+      color: #425daa;
+  }
+  .fa-youtube{
+      color: red;
+  }
+  footer{
+      background: #f2f2f2;
+      padding: 50px 0;
+  }
+  footer li{
+      list-style: none;
+  }
+  footer a{
+      text-decoration: none;
+      color: #818181;
+  }
+  .foot p{
+      float: left;
+      display: inline-block ;
+      margin:10px 20px;
+      font-size: 15px;
+      
+  }
+  
+    
